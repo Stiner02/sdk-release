@@ -950,6 +950,7 @@
 		17BAA17F2025344800F26DD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BCB59AB1B65F864005216E2 /* InfoPlist.strings */; };
 		17BAA18C2028D4EA00F26DD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BCB59AB1B65F864005216E2 /* InfoPlist.strings */; };
 		764F275F2049FF9C00A63F02 /* TuneNotInitializedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 764F275E2049FF9C00A63F02 /* TuneNotInitializedTests.m */; };
+		EA4BC352207B42EA0004C7DD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4BC351207B42E90004C7DD /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1319,6 +1320,7 @@
 		DBF535CD1B96290E00B76885 /* TuneTriggerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuneTriggerManager.m; sourceTree = "<group>"; };
 		DBF535E81B97636C00B76885 /* TuneTriggerManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuneTriggerManagerTests.m; sourceTree = "<group>"; };
 		DBF535EA1B976C9400B76885 /* SlideInMessage1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SlideInMessage1.json; sourceTree = "<group>"; };
+		EA4BC351207B42E90004C7DD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F81A460D1D9EE9D800D50867 /* TuneIadAttributionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuneIadAttributionTests.m; sourceTree = "<group>"; };
 		F81A460F1D9EF54D00D50867 /* TuneIadUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuneIadUtils.h; sourceTree = "<group>"; };
 		F81A46101D9EF54D00D50867 /* TuneIadUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuneIadUtils.m; sourceTree = "<group>"; };
@@ -1373,6 +1375,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4BC352207B42EA0004C7DD /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1512,6 +1515,7 @@
 		0BCB59981B65EF6A005216E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA4BC351207B42E90004C7DD /* WebKit.framework */,
 				1761D4A32020F895007FA9CA /* OCMock.framework */,
 				1761D4A52020F8A2007FA9CA /* OCMock.framework */,
 				179C50BE1FFF0C7B00A2253B /* XCTest.framework */,
@@ -3662,7 +3666,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tune/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Tune/Tune.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tune.Tune;
@@ -3691,7 +3695,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tune/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Tune/Tune.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tune.Tune;
@@ -3720,7 +3724,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Tune/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = Tune/Tune.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tune.Tune;
